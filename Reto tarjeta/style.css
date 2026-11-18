@@ -1,0 +1,49 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.comida{
+    font-size: 20px;
+    padding: 3px 6px;
+    border: 3px;
+    background-color:red;
+    color:white;
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 50%, calc(100% - 12px) 100%, 0 100%);
+}
+
+.balon{
+    line-height:1.5;
+}
+.precio{
+    font-size:20px;
+    padding: 3px 6px;
+    background-color: yellow;
+    margin-left: -10px;
+    
+}
+.descuento{
+    background-color:aqua;
+    
+}
+.sr{
+    border-right: 2px solid red;
+    width:fit-content;
+    padding-right: 10px;
+}
+.sr img{
+    display: block;
+}
+.sr img + img{
+    margin-top: -15px;
+    position: relative;
+    left: 45px;
+    transform: rotate(45deg);
+}
+.descuento2{
+    background-color:black;
+    color:white;
+    
+}
+.descuento3{
+    background-color:yellow;
+    
+}
